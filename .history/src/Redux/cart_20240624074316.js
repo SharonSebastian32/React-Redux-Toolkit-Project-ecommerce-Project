@@ -3,7 +3,7 @@ import { createSlice,createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const fetchUsers = createAsyncThunk("cart/fetchUser", async () => {
-    const response = await axios.get("https://jsonplaceholder.typicode.com/todos/1");
+    const response = await axios.get("https://jsonplaceholder.typicode.com/todoss/1");
     console.log(response);
     return response.data;
 });
@@ -61,8 +61,7 @@ const cartSlice = createSlice({
            state.userDetails = action.payload;
                 console.log("Loading  End");
 
-                console.log("Success");
-                 state.userDetails = action.payload
+                console.log("Success")
                 
             })
             .addCase(fetchUsers.rejected, (state) => {

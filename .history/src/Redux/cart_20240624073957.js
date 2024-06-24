@@ -59,11 +59,7 @@ const cartSlice = createSlice({
             .addCase(fetchUsers.fulfilled, (state, action) => {
                 // handle fulfilled state if needed
            state.userDetails = action.payload;
-                console.log("Loading  End");
-
-                console.log("Success");
-                 state.userDetails = action.payload
-                
+            console.log("Success")
             })
             .addCase(fetchUsers.rejected, (state) => {
                 console.log("Loading End");

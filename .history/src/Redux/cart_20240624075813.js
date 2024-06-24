@@ -3,7 +3,7 @@ import { createSlice,createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const fetchUsers = createAsyncThunk("cart/fetchUser", async () => {
-    const response = await axios.get("https://jsonplaceholder.typicode.com/todos/1");
+    const response = await axios.get("https://dummyjson.com/products");
     console.log(response);
     return response.data;
 });

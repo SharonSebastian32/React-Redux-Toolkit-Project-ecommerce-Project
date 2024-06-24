@@ -6,7 +6,7 @@ import { fetchUsers } from "./Redux/cart";
   
 function App() {
 
-  const{userDetails} = useSelector(state=>state.cart)
+  conat = useSelector(state=>)
 
   const dispatch = useDispatch();
   useEffect(() => { 
@@ -16,10 +16,10 @@ function App() {
 
   return (
     <Fragment>
-       <Header />
-      <ProductList />
-            {/* <pre style={{ color: "red" }}> { JSON.stringify(userDetails, undefined, 4) }</pre> */}
 
+      <Header />
+      <ProductList />
+      
     </Fragment>
   );
 

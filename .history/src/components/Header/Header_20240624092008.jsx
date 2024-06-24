@@ -10,7 +10,7 @@ const Header = () => {
    return (
      <header className="header">
       <div className="container">
-         <h1>MalluFlicks🎦</h1>
+         <h1>malluFlick</h1>
          <div className='right-section'> 
          <div>
              <div className='cart-count-header'>{totalcartCount}</div>

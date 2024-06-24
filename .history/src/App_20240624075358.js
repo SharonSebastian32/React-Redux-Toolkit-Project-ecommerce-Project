@@ -16,10 +16,10 @@ function App() {
 
   return (
     <Fragment>
-       <Header />
+      <h2 style={{color:"white"}}> {jsin</h2>
+      <Header />
       <ProductList />
-            {/* <pre style={{ color: "red" }}> { JSON.stringify(userDetails, undefined, 4) }</pre> */}
-
+      
     </Fragment>
   );
 

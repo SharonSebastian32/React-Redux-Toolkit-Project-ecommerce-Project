@@ -62,7 +62,7 @@ const cartSlice = createSlice({
                 console.log("Loading  End");
 
                 console.log("Success");
-                 state.userDetails = action.payload
+                 state.userDetails = action.pat
                 
             })
             .addCase(fetchUsers.rejected, (state) => {

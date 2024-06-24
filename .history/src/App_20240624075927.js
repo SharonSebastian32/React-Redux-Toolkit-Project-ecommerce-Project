@@ -18,7 +18,7 @@ function App() {
     <Fragment>
        <Header />
       <ProductList />
-            {/* <pre style={{ color: "red" }}> { JSON.stringify(userDetails, undefined, 4) }</pre> */}
+            <pre style={{ color: "red" }}> { JSON.stringify(userDetails, undefined, 4) }</pre>
 
     </Fragment>
   );
